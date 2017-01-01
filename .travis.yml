@@ -20,8 +20,8 @@ before_script:
 
 script:
   - gulp build
+  - git fetch origin
   - git checkout gh-pages
-  - git pull
   - cd dist
   - mv * ../ 
   - cd ..
