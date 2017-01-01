@@ -20,12 +20,12 @@ before_script:
 
 script:
   - gulp build
-  - git fetch origin
+  - git clone https://$GIT_USERNAME:$GIT_PASSWORD@github.com/shafiqissani/www.deployview.co.uk.git gh-pages
+  - cd gh-pages
   - git checkout gh-pages
-  - cd dist
-  - mv * ../ 
   - cd ..
-  - rm -rf .tmp bower_components node_modules dist
+  - cd dist
+  - mv * ../gh-pages/
   - git add -A .
   - git commit --allow-empty -m "Deployed by Travis"
-  - git push -u origin origin/gh-pages --force
+  - git push -u origin gh-pages --force
