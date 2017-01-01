@@ -25,6 +25,4 @@ script:
   - git remote add origin https://$GIT_USERNAME:$GIT_PASSWORD@github.com/shafiqissani/www.deployview.co.uk.git
   - git add -A .
   - git commit --allow-empty -m "Deployed by Travis"
-  - git status
-  - git remote -v
-  - git push -u origin gh-pages --force
+  - git push -u origin origin/gh-pages --force
