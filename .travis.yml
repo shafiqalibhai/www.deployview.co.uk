@@ -19,15 +19,13 @@ before_script:
   - git config --global user.email "$GIT_EMAIL"
 
 script:
-  - mkdir dist
-  - cd dist
-  - git init
-  - git remote add origin https://$GIT_USERNAME:$GIT_PASSWORD@github.com/shafiqissani/www.deployview.co.uk.git
+  - gulp build
   - git checkout gh-pages
   - git pull
-  - cd ..
-  - gulp build
   - cd dist
+  - mv * ../ 
+  - cd ..
+  - rm -rf .tmp bower_components node_modules dist
   - git add -A .
   - git commit --allow-empty -m "Deployed by Travis"
   - git push -u origin gh-pages --force
