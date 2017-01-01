@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "6.1"
+
+env:
+  global:
+    - SSH_KEY="id_rsa"
+    - GIT_NAME="Shafiq Alibhai"
+    - GIT_EMAIL="email@shafiq.in"
+
+before_script:
+  - npm install npm -g
+  - npm install bower -g
+  - npm install gulp -g
