@@ -5,22 +5,24 @@ node_js:
 
 env:
   global:
-    - SSH_KEY="id_rsa"
     - GIT_NAME="Shafiq Alibhai"
     - GIT_EMAIL="email@shafiq.in"
+    - GIT_USERNAME=$username
+    - GIT_PASSWORD=$password
 
 before_script:
   - npm install npm -g
   - npm install bower -g
   - npm install gulp -g
-  - git remote set-url origin https://$username:$password@github.com/shafiqissani/www.deployview.co.uk.git
-  - ls -la
+  - git remote set-url origin https://$GIT_USERNAME:$GIT_PASSWORD@github.com/shafiqissani/www.deployview.co.uk.git
+  - git config --global user.name "$GIT_NAME"
+  - git config --global user.email "$GIT_EMAIL"
 
 script:
   - gulp build
   - cd dist
   - git init
-  - git remote add origin https://$username:$password@github.com/shafiqissani/www.deployview.co.uk.git
+  - git remote add origin https://$GIT_USERNAME:$GIT_PASSWORD@github.com/shafiqissani/www.deployview.co.uk.git
   - git add -A .
   - git commit --allow-empty -m "Deployed by Travis"
   - git status
