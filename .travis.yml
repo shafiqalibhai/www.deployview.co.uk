@@ -28,4 +28,4 @@ script:
   - rm -rf .tmp bower_components node_modules dist
   - git add -A .
   - git commit --allow-empty -m "Deployed by Travis"
-  - git push -u origin gh-pages --force
+  - git push -u origin origin/gh-pages --force
