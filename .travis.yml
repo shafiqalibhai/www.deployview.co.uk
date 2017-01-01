@@ -24,3 +24,4 @@ script:
   - git add -A .
   - git commit --allow-empty -m "Deployed by Travis"
   - git status
+  - git remote -v
