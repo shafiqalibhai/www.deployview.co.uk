@@ -13,3 +13,9 @@ before_script:
   - npm install npm -g
   - npm install bower -g
   - npm install gulp -g
+  - git remote set-url origin https://$username:$password@github.com/shafiqissani/www.deployview.co.uk.git
+  - ls -la
+
+script:
+  - gulp build
+  
