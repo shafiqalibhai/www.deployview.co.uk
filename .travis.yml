@@ -22,5 +22,5 @@ script:
   - git init
   - git remote add origin https://$username:$password@github.com/shafiqissani/www.deployview.co.uk.git
   - git add -A .
-  - git commit --allow-empty -m "Built from commit $(git rev-parse HEAD)"
+  - git commit --allow-empty -m "Deployed by Travis"
   - git status
