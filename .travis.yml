@@ -23,8 +23,8 @@ script:
   - cd dist
   - git init
   - git remote add origin https://$GIT_USERNAME:$GIT_PASSWORD@github.com/shafiqissani/www.deployview.co.uk.git
-  - git pull
   - git checkout gh-pages
+  - git pull
   - cd ..
   - gulp build
   - cd dist
