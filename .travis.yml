@@ -30,4 +30,4 @@ script:
   - cd gh-pages
   - git add -A .
   - git commit --allow-empty -m "Deployed by Travis"
-  - git push -u origin gh-pages --force | grep done
+  - git push -u origin gh-pages --force > x
