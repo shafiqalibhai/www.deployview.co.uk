@@ -26,6 +26,8 @@ script:
   - cd ..
   - cd dist
   - mv * ../gh-pages/
+  - cd ..
+  - cd gh-pages
   - git add -A .
   - git commit --allow-empty -m "Deployed by Travis"
   - git push -u origin gh-pages --force
