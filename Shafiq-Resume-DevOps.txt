@@ -1,0 +1,66 @@
+SHAFIQ ALIBHAI
+===============
+Mobile: +44(0)7419872692
+E-mail: hello@deployview.com
+Linkedin: http://linkedin.shafiq.in
+
+SUMMARY
+=======
+• Independent and self-motivated, capable of working with minimal supervision
+• Capable of prioritising and delivering complex and sometimes inter-dependent workloads
+• Works effectively with stakeholders involved with the delivery of complex technology implementations
+
+
+EMPLOYMENT HISTORY
+===================
+Development Operaions Engineer
+DeployView Limited                       Nov 2014 - Mar 2017
+• Interacting with clients, managers, technical teams, support teams and 3rd parties to plan technology initiatives.
+• Building and maintaining a set of tools that enable developers to self-serve for operational tasks.
+• Supporting the engineering team on a range of platform builds.
+• Monitoring tools setup and administration.
+• Web application analysis, design, implementation using various open source web technologies.
+• Documenting the platform operations activities to form part of operational runbooks.
+• Driving automation to reduce failures, manual tasks and thereby improving overall application performance and availability.
+• Performing active monitoring of application services, where required restore or recover from application service events and/or failures.
+Snapshot:
+Ansible, Sonatype Nexus, Gitlab, Jenkins, HTML (including XHTML, DHTML and HTML5), Javascript, Git Distributed Version Control System, 
+Development Operations (Devops), Bash Shell Scripting, Amazon Web Services (AWS), Amazon AWS Elastic Compute Cloud (EC2), 
+Amazon Simple Storage Service (S3), Amazon AWS CloudFormation, Cascading Style Sheets (CSS), Agile Software Development(Scrum Methodology), 
+Software Configuration Management, Ruby, Vagrant, Cucumber, Kanban, VersionOne, Elasticsearch, Logstash, Kibana (ELK Stack), 
+Continuous integration, Continuous Deployment
+
+Various Developer Roles                  May 2009 - Oct 2014
+Snapshot:
+PHP, HTML (including XHTML, DHTML and HTML5), Javascript, Microsoft Active Server Pages (Classic ASP), Git Distributed Version Control System, 
+Jenkins, OsTicket, JSON, WordPress, Cascading Style Sheets (CSS), SASS, Compass, Devops, Server Administration, Requirements Gathering, 
+WordPress 3.x, Magento 1.7, User Acceptance Testing UAT, Wireframes, Mock-up Designs, Atlassian Jira, Apache,  MailChimp API, Bootstrap, 
+Agile Software Development(Scrum Methodology), Drupal 6/7, jQuery, Twig, Symfony2, MySQL, Vagrant, Puppet, Subversion, TCL, expect, 
+Bash Shell Scripting, Solaris, TYPO3 enterprise content management system, Perl, mongodb, Gearman, Amazon Web Services (AWS), 
+Amazon AWS Elastic Compute Cloud (EC2), Amazon Simple Storage Service (S3), Amazon Simple Queue Service (Amazon SQS), Amazon Route 53, 
+Joomla!, OSCommerce, eBay API, XML, Ubuntu, Debian, Server Administration, Munin
+
+
+CERTIFICATION
+==============
+TOGAF 9 Combined Part 1 and 2
+The Open Group Architecture Framework
+License Number: 97905
+
+PRINCE2 Practitioner
+Registration Number: 5512063.20462398
+
+PRINCE2 Foundation
+Registration Number: 5512063.20462395
+
+
+ORGANIZATIONS
+=============
+Association of Enterprise Architects
+Member
+
+
+VOLUNTEER EXPERIENCE
+=====================
+Developer
+www.timeandknowledge.org 2013 - 2014
